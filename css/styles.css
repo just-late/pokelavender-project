@@ -5,11 +5,11 @@ body {
   font-family: "Consolas", Roboto, sans-serif;
   margin: 0;
   background: #200235;
-  color: #cea1e9;
+  color: #e9cdf9;
 }
 header {
   background: #200235;
-  color: #cea1e9;
+  color: #e9cdf9;
   padding: 40px 20px;
   text-align: center;
 }
@@ -27,7 +27,7 @@ section {
 }
 section h2 {
   margin-top: 0;
-  color: #cea1e9;
+  color: #e9cdf9;
 }
 footer {
   padding: 24px;
