@@ -10,18 +10,38 @@
 <body>
   <header>
     <h1>pokélavender project</h1>
-    <p>pokémon lavender is a fan-made rom hack<br>of pokémon crystal version based on the polished crystal engine
+    <p>Pokémon Lavender is a fan-made rom hack<br>of Pokémon Crystal Version based on the Polished Crystal engine
     <br>by Rangi42.</p>
-    <p>it features a brand new story set in the pokémon world<br>that takes place in the atuva region.<br>it is currently unreleased, but a demo is in the works.</p>
+    <p>It features a brand new story set in the pokémon world<br>that takes place in the atuva region.<br>It is currently unreleased, but a demo is in the works.</p>
     
   </header>
   <main>
     <section>
       <h3>screenshots</h3>
-    <img src="snow.gif">
+    <img id="snow" src="snow.gif"
+    onmousemove="enlargeImg()"
+    onmouseout="resetImg()"
+    width="160px" height="144px"/>
     <img src="marigold-port.gif">
     <img src="skyline_eve.png">
-    <img src="rain.gif">
+    <img id="rain" src="rain.gif"
+    onmousemove="enlargeImg()"
+    onmouseout="resetImg()"
+    width="160px" height="144px"/>
+    <script>
+    //    img = document.getElementById("rain");
+      
+    //    function enlargeImg() {
+    //        img.style.transform = "scale(2)";
+    //        img.style.transition = "transform 0.25s ease";
+    //    }
+      
+        // Function to reset image size
+    //    function resetImg() {
+    //      img.style.transform = "scale(1)";
+    //      img.style.transition = "transform 0.25s ease";
+    //    }
+    </script>
     <img src="migration.gif">
   </main>
   <footer>
